@@ -3,7 +3,7 @@ require 'rails_helper'
 RSpec.feature "Visit homepage" do
   
   scenario "with non-signed-in user" do
-    visit "/"
+    visit '/'
     
     expect(page).to have_link("Home")
     expect(page).to have_link("Athletes Den")
