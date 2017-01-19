@@ -1,7 +1,7 @@
 require "rails_helper"
 RSpec.feature "Signing users out" do
  before do
-   @john = User.create!(email: "john@example.com",
+   @john = User.create!(email: "john@example2.com",
                         password: "password")
    visit '/'
    click_link "Sign in"
